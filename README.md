@@ -27,7 +27,7 @@ The goal of this exercise is to assess the student's ability to properly modify 
 4. Moq is installed in the RepoQuiz.Tests project.
 5. A .gitignore :simple_smile:
 
-## Student ERD ![Screenshot](/ERD/Student ERD Image.png)
+## Student ERD ![Screenshot](/ERD/Student ERD Image.PNG)
 
 ## Hints
 
