@@ -29,7 +29,6 @@ The goal of this exercise is to assess the student's ability to properly modify 
 
 ## Student ERD ![Screenshot](/ERD/Student ERD Image.png)
 
-
 ## Hints
 
 - Find what's missing
