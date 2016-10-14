@@ -15,9 +15,6 @@ namespace RepoQuiz.Migrations
 
         protected override void Seed(RepoQuiz.DAL.StudentContext context)
         {
-            StudentRepository StudentRepo = new StudentRepository();
-            NameGenerator NameGen = new NameGenerator();
-
             context.Students.AddOrUpdate(
                 s = s.StudentID,
                     new Student { FirstName = "Agnes", LastName = "Butts", Major = "Underwater Basket Weaving" },
