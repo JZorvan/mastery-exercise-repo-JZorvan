@@ -16,7 +16,6 @@ namespace RepoQuiz.Migrations
         protected override void Seed(RepoQuiz.DAL.StudentContext context)
         {
             context.Students.AddOrUpdate(
-                s = s.StudentID,
                 new Student { FirstName = "Agnes", LastName = "Butts", Major = "Underwater Basket Weaving" },
                 new Student { FirstName = "Ethel", LastName = "Hitler", Major = "Cannibis Agriculture" },
                 new Student { FirstName = "Mildred", LastName = "Hooker", Major = "Fermentation Sciences" },
