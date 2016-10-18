@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Students";
+}
+
+<h3 class="text-center">@ViewBag.Title</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Student ID</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Major</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            for (int i = 0; i < 10; i++)
+            {
+                <tr>
+                    <td>@ViewBag.Students[i].StudentID</td>
+                    <td>@ViewBag.Students[i].FirstName</td>
+                    <td>@ViewBag.Students[i].LastName</td>
+                    <td>@ViewBag.Students[i].Major</td>
+                </tr>
+
+            }
+
+        }
+    </tbody>
+
+</table>
