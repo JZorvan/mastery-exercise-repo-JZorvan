@@ -25,5 +25,6 @@ namespace RepoQuiz.DAL
             int i = 1;
             return Context.Students.ToList();
         }
+
     }
 }
