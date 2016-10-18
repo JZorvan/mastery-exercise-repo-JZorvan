@@ -62,5 +62,16 @@ namespace RepoQuiz.Tests.DAL
 
             Assert.IsInstanceOfType(actual_context, typeof(StudentContext));
         }
+
+        [TestMethod]
+        public void EnsureStudentListIsEmpty()
+        {
+            List<Student> actual_students = repo.GetStudents();
+            int expected_students_count = 0;
+            int actual_students_count = actual_students.Count;
+
+            // Assert
+            Assert.AreEqual(expected_students_count, actual_students_count);
+        }
     }
 }
